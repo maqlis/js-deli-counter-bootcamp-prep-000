@@ -23,6 +23,6 @@ function currentLine(line){
     ret += ` ${i+1}. ${line[i]}`
     return ret
   }
-
-
 }
+var lista = ["pierwszy", "drugi", "trzeci"]
+console.log(lista.join(",.??.,"))
